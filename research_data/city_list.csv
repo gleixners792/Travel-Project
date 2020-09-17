@@ -1,154 +1,154 @@
-STATE_NAME,CITY,POP_EST_19,STATE_CODE,LATITUDE,LONGITUDE,REGION,REGION4
-Alabama,Birmingham,"209,403",AL,33.519,-86.8014,East South Central,South
-Alabama,Huntsville,"200,574",AL,34.726866,-86.567318,East South Central,South
-Alabama,Mobile,"188,720",AL,30.6959,-88.0434,East South Central,South
-Alabama,Montgomery,"198,525",AL,32.3743,-86.3118,East South Central,South
-Alabama,Tuscaloosa,"101,129",AL,33.196891,-87.562666,East South Central,South
-Alaska,Anchorage,"288,000",AK,61.211571,-149.876077,Pacific,West
-Arizona,Flagstaff,"75,038",AZ,35.185911,-111.661979,Mountain,West
-Arizona,Mesa,"518,012",AZ,33.43174,-111.846931,Mountain,West
-Arizona,Phoenix,"1,680,992",AZ,33.451,-112.0685,Mountain,West
-Arizona,Scottsdale,"258,069",AZ,33.521767,-111.904926,Mountain,West
-Arizona,Sedona,"10,339",AZ,34.8697,-111.7602,Mountain,West
-Arizona,Tucson,"548,073",AZ,32.213873,-110.969445,Mountain,West
-Arkansas,Little Rock,"197,312",AR,34.748342,-92.281939,West South Central,South
-California,Fresno,"531,576",CA,36.841107,-119.800359,Pacific,West
-California,Huntington Beach,"199,223",CA,33.7152,-118.0088,Pacific,West
-California,Laguna Beach,"22,827",CA,33.542927,-117.772351,Pacific,West
-California,Long Beach,"462,628",CA,33.7705,-118.1885,Pacific,West
-California,Los Angeles,"3,979,576",CA,33.973093,-118.247896,Pacific,West
-California,Malibu,"11,820",CA,34.0382,-118.7082,Pacific,West
-California,Monterey,"28,178",CA,36.595642,-121.8848,Pacific,West
-California,Napa,"78,130",CA,38.328137,-122.305518,Pacific,West
-California,Oakland,"433,031",CA,37.780595,-122.216587,Pacific,West
-California,Palm Springs,"48,518",CA,33.841406,-116.53466,Pacific,West
-California,Sacramento,"513,624",CA,38.5816,-121.4933,Pacific,West
-California,San Diego,"1,423,851",CA,32.71852,-117.159316,Pacific,West
-California,San Francisco,"881,549",CA,37.775,-122.4183,Pacific,West
-California,San Jose,"1,021,795",CA,37.3894,-121.8868,Pacific,West
-California,Santa Barbara,"91,364",CA,34.419668,-119.70782,Pacific,West
-California,Santa Cruz,"64,608",CA,36.982946,-122.043612,Pacific,West
-California,Santa Monica,"90,401",CA,34.017628,-118.490708,Pacific,West
-California,South Lake Tahoe,"22,197",CA,38.916976,-119.986469,Pacific,West
-Colorado,Aspen,"7,401",CO,39.195139,-106.823593,Mountain,West
-Colorado,Breckenridge,"4,945",CO,39.481667,-106.037778,Mountain,West
-Colorado,Colorado Springs,"478,221",CO,38.8335,-104.8206,Mountain,West
-Colorado,Denver,"727,211",CO,39.840562,-105.007985,Mountain,West
-Colorado,Fort Collins,"170,243",CO,40.581293,-105.103884,Mountain,West
-Colorado,Vail,"5,434",CO,39.623793,-106.463454,Mountain,West
-Connecticut,Bridgeport,"144,399",CT,41.1669,-73.2052,New England,Northeast
-Connecticut,Hartford,"122,105",CT,41.7636,-72.6855,New England,Northeast
-Connecticut,New Haven,"130,250",CT,41.308,-72.9286,New England,Northeast
-Connecticut,Stamford,"129,638",CT,41.053083,-73.539039,New England,Northeast
-Delaware,Wilmington,"70,166",DE,39.737752,-75.549658,South Atlantic,South
-District of Columbia,Washington,"705,749",DC,38.912217,-77.017691,South Atlantic,South
-Florida,Destin,"14,247",FL,30.392,-86.4834,South Atlantic,South
-Florida,Fort Myers,"87,103",FL,26.620403,-81.8725,South Atlantic,South
-Florida,Jacksonville,"911,507",FL,30.3163,-81.4175,South Atlantic,South
-Florida,Miami,"467,963",FL,25.779,-80.1982,South Atlantic,South
-Florida,Naples,"22,088",FL,26.1377,-81.7966,South Atlantic,South
-Florida,Orlando,"287,442",FL,28.498821,-80.58248,South Atlantic,South
-Florida,St. Augustine,"15,415",FL,29.8364,-81.2745,South Atlantic,South
-Florida,St. Petersburg ,"265,351",FL,27.772318,-82.638609,South Atlantic,South
-Florida,Tampa,"399,700",FL,28.0879,-82.4593,South Atlantic,South
-Georgia,Atlanta,"506,811",GA,33.749788,-84.31685,South Atlantic,South
-Georgia,Augusta,"197,888",GA,33.511692,-82.099505,South Atlantic,South
-Georgia,Savannah,"144,464",GA,32.067631,-81.102394,South Atlantic,South
-Hawaii,Honolulu,"345,064",HI,21.3095,-157.863,Pacific,West
-Idaho,Boise,"228,959",ID,43.6136,-116.2025,Mountain,West
-Idaho,Sun Valley,"1,486",ID,43.6955,-114.3557,Mountain,West
-Illinois,Chicago,"2,693,976",IL,41.885847,-87.618123,East North Central,Midwest
-Indiana,Fort Wayne,"270,402",IN,41.0716,-85.1367,East North Central,Midwest
-Indiana,Indianapolis,"876,384",IN,39.938417,-86.13894,East North Central,Midwest
-Iowa,Cedar Rapids,"133,562",IA,41.9743,-91.655382,West North Central,Midwest
-Iowa,Davenport,"101,590",IA,41.5218,-90.5743,West North Central,Midwest
-Iowa,Des Moines,"214,237",IA,41.6005,-93.6088,West North Central,Midwest
-Kansas,Kansas City,"152,960",KS,39.115733,-94.627139,West North Central,Midwest
-Kansas,Overland Park,"195,494",KS,38.992488,-94.674769,West North Central,Midwest
-Kansas,Wichita,"389,938",KS,37.6898,-97.3415,West North Central,Midwest
-Kentucky,Lexington,"323,152",KY,38.017394,-84.485423,East South Central,South
-Kentucky,Louisville,"617,638",KY,38.2435,-85.7639,East South Central,South
-Louisiana,Baton Rouge,"220,236",LA,30.450731,-91.186954,West South Central,South
-Louisiana,New Orleans,"390,144",LA,29.963071,-90.160953,West South Central,South
-Maine,Portland,"66,215",ME,43.660564,-70.258864,New England,Northeast
-Maryland,Baltimore,"593,490",MD,39.17185,-76.648287,South Atlantic,South
-Massachusetts,Boston,"692,600",MA,42.357603,-71.068432,New England,Northeast
-Massachusetts,Plymouth,"61,528",MA,41.910404,-70.642004,New England,Northeast
-Michigan,Ann Arbor,"119,980",MI,42.279379,-83.783998,East North Central,Midwest
-Michigan,Detroit,"670,031",MI,42.347429,-83.060398,East North Central,Midwest
-Michigan,Grand Rapids,"201,013",MI,42.9704,-85.6738,East North Central,Midwest
-Minnesota,Minneapolis,"429,606",MN,45.049582,-93.246095,West North Central,Midwest
-Minnesota,St. Paul ,"308,096",MN,44.902691,-93.096435,West North Central,Midwest
-Mississippi,Jackson,"160,628",MS,32.293502,-90.186655,East South Central,South
-Missouri,Branson,"11,630",MO,36.643611,-93.218333,West North Central,Midwest
-Missouri,Kansas City,"495,327",MO,39.163189,-94.569882,West North Central,Midwest
-Missouri,St. Louis ,"300,576",MO,38.642574,-90.324189,West North Central,Midwest
-Montana,Billings,"109,577",MT,45.774489,-108.500452,Mountain,West
-Nebraska,Lincoln,"289,102",NE,40.8169,-96.7103,West North Central,Midwest
-Nebraska,Omaha,"478,192",NE,41.261,-95.9376,West North Central,Midwest
-Nevada,Las Vegas,"651,319",NV,36.172082,-115.122366,Mountain,West
-Nevada,Reno,"255,601",NV,39.526812,-119.811275,Mountain,West
-New Hampshire,Manchester,"112,673",NH,42.992858,-71.463255,New England,Northeast
-New Jersey,Atlantic City,"37,743",NJ,39.366411,-74.431727,Middle Atlantic,Northeast
-New Jersey,Newark,"282,011",NJ,40.7308,-74.1744,Middle Atlantic,Northeast
-New Mexico,Albuquerque,"560,513",NM,35.0936,-106.6423,Mountain,West
-New Mexico,Santa Fe,"84,683",NM,35.702472,-105.974818,Mountain,West
-New York,Buffalo,"255,284",NY,42.896659,-78.884575,Middle Atlantic,Northeast
-New York,New York,"8,336,817",NY,40.74838,-73.996705,Middle Atlantic,Northeast
-New York,Niagara Falls,"47,720",NY,43.095467,-79.041443,Middle Atlantic,Northeast
-New York,Rochester,"205,695",NY,43.1683,-77.6026,Middle Atlantic,Northeast
-North Carolina,Asheville,"92,870",NC,35.597075,-82.556533,South Atlantic,South
-North Carolina,Charlotte,"885,708",NC,35.2269,-80.8433,South Atlantic,South
-North Carolina,Durham,"278,993",NC,35.996725,-78.896613,South Atlantic,South
-North Carolina,Greensboro,"296,710",NC,36.0726,-79.792,South Atlantic,South
-North Carolina,Raleigh,"474,069",NC,35.772701,-78.632439,South Atlantic,South
-North Carolina,Winston-Salem ,"247,945",NC,36.10237,-80.222798,South Atlantic,South
-North Dakota,Fargo,"124,662",ND,46.900878,-96.793577,West North Central,Midwest
-Ohio,Cincinnati,"303,940",OH,39.091293,-84.277383,East North Central,Midwest
-Ohio,Cleveland,"381,009",OH,41.4918,-81.6757,East North Central,Midwest
-Ohio,Columbus,"898,553",OH,40.1444,-82.9789,East North Central,Midwest
-Oklahoma,Oklahoma City,"655,057",OK,35.3337,-97.4922,West South Central,South
-Oklahoma,Tulsa,"401,190",OK,36.05566,-96.060229,West South Central,South
-Oregon,Eugene,"172,622",OR,44.073677,-123.078757,Pacific,West
-Oregon,Portland,"654,741",OR,45.442919,-122.615092,Pacific,West
-Oregon,Salem,"174,365",OR,44.926039,-122.979692,Pacific,West
-Pennsylvania,Philadelphia,"1,584,064",PA,39.864998,-75.275196,Middle Atlantic,Northeast
-Pennsylvania,Pittsburgh,"300,286",PA,40.474536,-79.952524,Middle Atlantic,Northeast
-Rhode Island,Providence,"179,883",RI,41.8255,-71.4114,New England,Northeast
-South Carolina,Charleston,"137,566",SC,32.962223,-79.86533,South Atlantic,South
-South Carolina,Columbia,"131,674",SC,34.072613,-81.179617,South Atlantic,South
-South Carolina,Greenville,"70,635",SC,34.847165,-82.406049,South Atlantic,South
-South Carolina,Hilton Head,"39,861",SC,32.1632,-80.7533,South Atlantic,South
-South Carolina,Myrtle Beach,"34,695",SC,33.758701,-78.804448,South Atlantic,South
-South Dakota,Rapid City,"77,503",SD,44.077041,-103.200259,West North Central,Midwest
-South Dakota,Sioux Falls,"183,793",SD,43.488,-96.7343,West North Central,Midwest
-Tennessee,Chattanooga,"182,799",TN,35.0455,-85.3081,East South Central,South
-Tennessee,Gatlinburg,"3,860",TN,35.728976,-83.487406,East South Central,South
-Tennessee,Knoxville,"187,603",TN,35.9609,-83.9189,East South Central,South
-Tennessee,Memphis,"651,073",TN,35.0337,-89.9343,East South Central,South
-Tennessee,Nashville,"670,820",TN,36.167028,-86.778441,East South Central,South
-Texas,Amarillo,"199,371",TX,35.203238,-101.842052,West South Central,South
-Texas,Austin,"978,908",TX,30.210692,-97.942749,West South Central,South
-Texas,Dallas,"1,343,573",TX,32.996848,-96.792113,West South Central,South
-Texas,El Paso,"681,728",TX,31.758411,-106.478311,West South Central,South
-Texas,Fort Worth,"909,585",TX,32.7469,-97.3268,West South Central,South
-Texas,Houston,"2,320,268",TX,29.596156,-95.458709,West South Central,South
-Texas,San Antonio,"1,547,253",TX,29.468525,-98.526352,West South Central,South
-Utah,Park City,"8,526",UT,40.695724,-111.528021,Mountain,West
-Utah,Provo,"116,618",UT,40.231949,-111.675504,Mountain,West
-Utah,Salt Lake City,"200,567",UT,40.755851,-111.896657,Mountain,West
-Vermont,Burlington,"42,819",VT,44.484023,-73.219875,New England,Northeast
-Virginia,Chesapeake,"244,835",VA,36.735246,-76.23843,South Atlantic,South
-Virginia,Norfolk,"242,742",VA,36.8466,-76.2855,South Atlantic,South
-Virginia,Richmond,"230,436",VA,37.453158,-77.469798,South Atlantic,South
-Virginia,Virginia Beach,"449,974",VA,36.8527,-75.9783,South Atlantic,South
-Virginia,Williamsburg,"14,954",VA,37.262698,-76.701686,South Atlantic,South
-Washington,Seattle,"753,675",WA,47.611435,-122.330456,Pacific,West
-Washington,Spokane,"222,081",WA,47.666485,-117.436527,Pacific,West
-Washington,Tacoma,"217,827",WA,47.2764,-122.7583,Pacific,West
-West Virginia,Charleston,"46,536",WV,38.349,-81.630606,South Atlantic,South
-Wisconsin,Green Bay,"104,578",WI,44.485313,-88.016868,East North Central,Midwest
-Wisconsin,Madison,"259,680",WI,43.073,-89.3817,East North Central,Midwest
-Wisconsin,Milwaukee,"590,157",WI,43.0343,-87.9151,East North Central,Midwest
-Wyoming,Cheyenne,"64,235",WY,41.143719,-104.796234,Mountain,West
-Wyoming,Jackson,"10,559",WY,43.460734,-110.766277,Mountain,West
+STATE_NAME,CITY,City_State,POP_EST_19,STATE_CODE,LATITUDE,LONGITUDE,REGION,REGION4
+Alabama,Birmingham,"Birmingham, Alabama","209,403",AL,33.519,-86.8014,East South Central,South
+Alabama,Huntsville,"Huntsville, Alabama","200,574",AL,34.726866,-86.567318,East South Central,South
+Alabama,Mobile,"Mobile, Alabama","188,720",AL,30.6959,-88.0434,East South Central,South
+Alabama,Montgomery,"Montgomery, Alabama","198,525",AL,32.3743,-86.3118,East South Central,South
+Alabama,Tuscaloosa,"Tuscaloosa, Alabama","101,129",AL,33.196891,-87.562666,East South Central,South
+Alaska,Anchorage,"Anchorage, Alaska","288,000",AK,61.211571,-149.876077,Pacific,West
+Arizona,Flagstaff,"Flagstaff, Arizona","75,038",AZ,35.185911,-111.661979,Mountain,West
+Arizona,Mesa,"Mesa, Arizona","518,012",AZ,33.43174,-111.846931,Mountain,West
+Arizona,Phoenix,"Phoenix, Arizona","1,680,992",AZ,33.451,-112.0685,Mountain,West
+Arizona,Scottsdale,"Scottsdale, Arizona","258,069",AZ,33.521767,-111.904926,Mountain,West
+Arizona,Sedona,"Sedona, Arizona","10,339",AZ,34.8697,-111.7602,Mountain,West
+Arizona,Tucson,"Tucson, Arizona","548,073",AZ,32.213873,-110.969445,Mountain,West
+Arkansas,Little Rock,"Little Rock, Arkansas","197,312",AR,34.748342,-92.281939,West South Central,South
+California,Fresno,"Fresno, California","531,576",CA,36.841107,-119.800359,Pacific,West
+California,Huntington Beach,"Huntington Beach, California","199,223",CA,33.7152,-118.0088,Pacific,West
+California,Laguna Beach,"Laguna Beach, California","22,827",CA,33.542927,-117.772351,Pacific,West
+California,Long Beach,"Long Beach, California","462,628",CA,33.7705,-118.1885,Pacific,West
+California,Los Angeles,"Los Angeles, California","3,979,576",CA,33.973093,-118.247896,Pacific,West
+California,Malibu,"Malibu, California","11,820",CA,34.0382,-118.7082,Pacific,West
+California,Monterey,"Monterey, California","28,178",CA,36.595642,-121.8848,Pacific,West
+California,Napa,"Napa, California","78,130",CA,38.328137,-122.305518,Pacific,West
+California,Oakland,"Oakland, California","433,031",CA,37.780595,-122.216587,Pacific,West
+California,Palm Springs,"Palm Springs, California","48,518",CA,33.841406,-116.53466,Pacific,West
+California,Sacramento,"Sacramento, California","513,624",CA,38.5816,-121.4933,Pacific,West
+California,San Diego,"San Diego, California","1,423,851",CA,32.71852,-117.159316,Pacific,West
+California,San Francisco,"San Francisco, California","881,549",CA,37.775,-122.4183,Pacific,West
+California,San Jose,"San Jose, California","1,021,795",CA,37.3894,-121.8868,Pacific,West
+California,Santa Barbara,"Santa Barbara, California","91,364",CA,34.419668,-119.70782,Pacific,West
+California,Santa Cruz,"Santa Cruz, California","64,608",CA,36.982946,-122.043612,Pacific,West
+California,Santa Monica,"Santa Monica, California","90,401",CA,34.017628,-118.490708,Pacific,West
+California,South Lake Tahoe,"South Lake Tahoe, California","22,197",CA,38.916976,-119.986469,Pacific,West
+Colorado,Aspen,"Aspen, Colorado","7,401",CO,39.195139,-106.823593,Mountain,West
+Colorado,Breckenridge,"Breckenridge, Colorado","4,945",CO,39.481667,-106.037778,Mountain,West
+Colorado,Colorado Springs,"Colorado Springs, Colorado","478,221",CO,38.8335,-104.8206,Mountain,West
+Colorado,Denver,"Denver, Colorado","727,211",CO,39.840562,-105.007985,Mountain,West
+Colorado,Fort Collins,"Fort Collins, Colorado","170,243",CO,40.581293,-105.103884,Mountain,West
+Colorado,Vail,"Vail, Colorado","5,434",CO,39.623793,-106.463454,Mountain,West
+Connecticut,Bridgeport,"Bridgeport, Connecticut","144,399",CT,41.1669,-73.2052,New England,Northeast
+Connecticut,Hartford,"Hartford, Connecticut","122,105",CT,41.7636,-72.6855,New England,Northeast
+Connecticut,New Haven,"New Haven, Connecticut","130,250",CT,41.308,-72.9286,New England,Northeast
+Connecticut,Stamford,"Stamford, Connecticut","129,638",CT,41.053083,-73.539039,New England,Northeast
+Delaware,Wilmington,"Wilmington, Delaware","70,166",DE,39.737752,-75.549658,South Atlantic,South
+District of Columbia,Washington,"Washington, District of Columbia","705,749",DC,38.912217,-77.017691,South Atlantic,South
+Florida,Destin,"Destin, Florida","14,247",FL,30.392,-86.4834,South Atlantic,South
+Florida,Fort Myers,"Fort Myers, Florida","87,103",FL,26.620403,-81.8725,South Atlantic,South
+Florida,Jacksonville,"Jacksonville, Florida","911,507",FL,30.3163,-81.4175,South Atlantic,South
+Florida,Miami,"Miami, Florida","467,963",FL,25.779,-80.1982,South Atlantic,South
+Florida,Naples,"Naples, Florida","22,088",FL,26.1377,-81.7966,South Atlantic,South
+Florida,Orlando,"Orlando, Florida","287,442",FL,28.498821,-80.58248,South Atlantic,South
+Florida,St. Augustine,"St. Augustine, Florida","15,415",FL,29.8364,-81.2745,South Atlantic,South
+Florida,St. Petersburg ,"St. Petersburg , Florida","265,351",FL,27.772318,-82.638609,South Atlantic,South
+Florida,Tampa,"Tampa, Florida","399,700",FL,28.0879,-82.4593,South Atlantic,South
+Georgia,Atlanta,"Atlanta, Georgia","506,811",GA,33.749788,-84.31685,South Atlantic,South
+Georgia,Augusta,"Augusta, Georgia","197,888",GA,33.511692,-82.099505,South Atlantic,South
+Georgia,Savannah,"Savannah, Georgia","144,464",GA,32.067631,-81.102394,South Atlantic,South
+Hawaii,Honolulu,"Honolulu, Hawaii","345,064",HI,21.3095,-157.863,Pacific,West
+Idaho,Boise,"Boise, Idaho","228,959",ID,43.6136,-116.2025,Mountain,West
+Idaho,Sun Valley,"Sun Valley, Idaho","1,486",ID,43.6955,-114.3557,Mountain,West
+Illinois,Chicago,"Chicago, Illinois","2,693,976",IL,41.885847,-87.618123,East North Central,Midwest
+Indiana,Fort Wayne,"Fort Wayne, Indiana","270,402",IN,41.0716,-85.1367,East North Central,Midwest
+Indiana,Indianapolis,"Indianapolis, Indiana","876,384",IN,39.938417,-86.13894,East North Central,Midwest
+Iowa,Cedar Rapids,"Cedar Rapids, Iowa","133,562",IA,41.9743,-91.655382,West North Central,Midwest
+Iowa,Davenport,"Davenport, Iowa","101,590",IA,41.5218,-90.5743,West North Central,Midwest
+Iowa,Des Moines,"Des Moines, Iowa","214,237",IA,41.6005,-93.6088,West North Central,Midwest
+Kansas,Kansas City,"Kansas City, Kansas","152,960",KS,39.115733,-94.627139,West North Central,Midwest
+Kansas,Overland Park,"Overland Park, Kansas","195,494",KS,38.992488,-94.674769,West North Central,Midwest
+Kansas,Wichita,"Wichita, Kansas","389,938",KS,37.6898,-97.3415,West North Central,Midwest
+Kentucky,Lexington,"Lexington, Kentucky","323,152",KY,38.017394,-84.485423,East South Central,South
+Kentucky,Louisville,"Louisville, Kentucky","617,638",KY,38.2435,-85.7639,East South Central,South
+Louisiana,Baton Rouge,"Baton Rouge, Louisiana","220,236",LA,30.450731,-91.186954,West South Central,South
+Louisiana,New Orleans,"New Orleans, Louisiana","390,144",LA,29.963071,-90.160953,West South Central,South
+Maine,Portland,"Portland, Maine","66,215",ME,43.660564,-70.258864,New England,Northeast
+Maryland,Baltimore,"Baltimore, Maryland","593,490",MD,39.17185,-76.648287,South Atlantic,South
+Massachusetts,Boston,"Boston, Massachusetts","692,600",MA,42.357603,-71.068432,New England,Northeast
+Massachusetts,Plymouth,"Plymouth, Massachusetts","61,528",MA,41.910404,-70.642004,New England,Northeast
+Michigan,Ann Arbor,"Ann Arbor, Michigan","119,980",MI,42.279379,-83.783998,East North Central,Midwest
+Michigan,Detroit,"Detroit, Michigan","670,031",MI,42.347429,-83.060398,East North Central,Midwest
+Michigan,Grand Rapids,"Grand Rapids, Michigan","201,013",MI,42.9704,-85.6738,East North Central,Midwest
+Minnesota,Minneapolis,"Minneapolis, Minnesota","429,606",MN,45.049582,-93.246095,West North Central,Midwest
+Minnesota,St. Paul ,"St. Paul , Minnesota","308,096",MN,44.902691,-93.096435,West North Central,Midwest
+Mississippi,Jackson,"Jackson, Mississippi","160,628",MS,32.293502,-90.186655,East South Central,South
+Missouri,Branson,"Branson, Missouri","11,630",MO,36.643611,-93.218333,West North Central,Midwest
+Missouri,Kansas City,"Kansas City, Missouri","495,327",MO,39.163189,-94.569882,West North Central,Midwest
+Missouri,St. Louis ,"St. Louis , Missouri","300,576",MO,38.642574,-90.324189,West North Central,Midwest
+Montana,Billings,"Billings, Montana","109,577",MT,45.774489,-108.500452,Mountain,West
+Nebraska,Lincoln,"Lincoln, Nebraska","289,102",NE,40.8169,-96.7103,West North Central,Midwest
+Nebraska,Omaha,"Omaha, Nebraska","478,192",NE,41.261,-95.9376,West North Central,Midwest
+Nevada,Las Vegas,"Las Vegas, Nevada","651,319",NV,36.172082,-115.122366,Mountain,West
+Nevada,Reno,"Reno, Nevada","255,601",NV,39.526812,-119.811275,Mountain,West
+New Hampshire,Manchester,"Manchester, New Hampshire","112,673",NH,42.992858,-71.463255,New England,Northeast
+New Jersey,Atlantic City,"Atlantic City, New Jersey","37,743",NJ,39.366411,-74.431727,Middle Atlantic,Northeast
+New Jersey,Newark,"Newark, New Jersey","282,011",NJ,40.7308,-74.1744,Middle Atlantic,Northeast
+New Mexico,Albuquerque,"Albuquerque, New Mexico","560,513",NM,35.0936,-106.6423,Mountain,West
+New Mexico,Santa Fe,"Santa Fe, New Mexico","84,683",NM,35.702472,-105.974818,Mountain,West
+New York,Buffalo,"Buffalo, New York","255,284",NY,42.896659,-78.884575,Middle Atlantic,Northeast
+New York,New York,"New York, New York","8,336,817",NY,40.74838,-73.996705,Middle Atlantic,Northeast
+New York,Niagara Falls,"Niagara Falls, New York","47,720",NY,43.095467,-79.041443,Middle Atlantic,Northeast
+New York,Rochester,"Rochester, New York","205,695",NY,43.1683,-77.6026,Middle Atlantic,Northeast
+North Carolina,Asheville,"Asheville, North Carolina","92,870",NC,35.597075,-82.556533,South Atlantic,South
+North Carolina,Charlotte,"Charlotte, North Carolina","885,708",NC,35.2269,-80.8433,South Atlantic,South
+North Carolina,Durham,"Durham, North Carolina","278,993",NC,35.996725,-78.896613,South Atlantic,South
+North Carolina,Greensboro,"Greensboro, North Carolina","296,710",NC,36.0726,-79.792,South Atlantic,South
+North Carolina,Raleigh,"Raleigh, North Carolina","474,069",NC,35.772701,-78.632439,South Atlantic,South
+North Carolina,Winston-Salem ,"Winston-Salem , North Carolina","247,945",NC,36.10237,-80.222798,South Atlantic,South
+North Dakota,Fargo,"Fargo, North Dakota","124,662",ND,46.900878,-96.793577,West North Central,Midwest
+Ohio,Cincinnati,"Cincinnati, Ohio","303,940",OH,39.091293,-84.277383,East North Central,Midwest
+Ohio,Cleveland,"Cleveland, Ohio","381,009",OH,41.4918,-81.6757,East North Central,Midwest
+Ohio,Columbus,"Columbus, Ohio","898,553",OH,40.1444,-82.9789,East North Central,Midwest
+Oklahoma,Oklahoma City,"Oklahoma City, Oklahoma","655,057",OK,35.3337,-97.4922,West South Central,South
+Oklahoma,Tulsa,"Tulsa, Oklahoma","401,190",OK,36.05566,-96.060229,West South Central,South
+Oregon,Eugene,"Eugene, Oregon","172,622",OR,44.073677,-123.078757,Pacific,West
+Oregon,Portland,"Portland, Oregon","654,741",OR,45.442919,-122.615092,Pacific,West
+Oregon,Salem,"Salem, Oregon","174,365",OR,44.926039,-122.979692,Pacific,West
+Pennsylvania,Philadelphia,"Philadelphia, Pennsylvania","1,584,064",PA,39.864998,-75.275196,Middle Atlantic,Northeast
+Pennsylvania,Pittsburgh,"Pittsburgh, Pennsylvania","300,286",PA,40.474536,-79.952524,Middle Atlantic,Northeast
+Rhode Island,Providence,"Providence, Rhode Island","179,883",RI,41.8255,-71.4114,New England,Northeast
+South Carolina,Charleston,"Charleston, South Carolina","137,566",SC,32.962223,-79.86533,South Atlantic,South
+South Carolina,Columbia,"Columbia, South Carolina","131,674",SC,34.072613,-81.179617,South Atlantic,South
+South Carolina,Greenville,"Greenville, South Carolina","70,635",SC,34.847165,-82.406049,South Atlantic,South
+South Carolina,Hilton Head,"Hilton Head, South Carolina","39,861",SC,32.1632,-80.7533,South Atlantic,South
+South Carolina,Myrtle Beach,"Myrtle Beach, South Carolina","34,695",SC,33.758701,-78.804448,South Atlantic,South
+South Dakota,Rapid City,"Rapid City, South Dakota","77,503",SD,44.077041,-103.200259,West North Central,Midwest
+South Dakota,Sioux Falls,"Sioux Falls, South Dakota","183,793",SD,43.488,-96.7343,West North Central,Midwest
+Tennessee,Chattanooga,"Chattanooga, Tennessee","182,799",TN,35.0455,-85.3081,East South Central,South
+Tennessee,Gatlinburg,"Gatlinburg, Tennessee","3,860",TN,35.728976,-83.487406,East South Central,South
+Tennessee,Knoxville,"Knoxville, Tennessee","187,603",TN,35.9609,-83.9189,East South Central,South
+Tennessee,Memphis,"Memphis, Tennessee","651,073",TN,35.0337,-89.9343,East South Central,South
+Tennessee,Nashville,"Nashville, Tennessee","670,820",TN,36.167028,-86.778441,East South Central,South
+Texas,Amarillo,"Amarillo, Texas","199,371",TX,35.203238,-101.842052,West South Central,South
+Texas,Austin,"Austin, Texas","978,908",TX,30.210692,-97.942749,West South Central,South
+Texas,Dallas,"Dallas, Texas","1,343,573",TX,32.996848,-96.792113,West South Central,South
+Texas,El Paso,"El Paso, Texas","681,728",TX,31.758411,-106.478311,West South Central,South
+Texas,Fort Worth,"Fort Worth, Texas","909,585",TX,32.7469,-97.3268,West South Central,South
+Texas,Houston,"Houston, Texas","2,320,268",TX,29.596156,-95.458709,West South Central,South
+Texas,San Antonio,"San Antonio, Texas","1,547,253",TX,29.468525,-98.526352,West South Central,South
+Utah,Park City,"Park City, Utah","8,526",UT,40.695724,-111.528021,Mountain,West
+Utah,Provo,"Provo, Utah","116,618",UT,40.231949,-111.675504,Mountain,West
+Utah,Salt Lake City,"Salt Lake City, Utah","200,567",UT,40.755851,-111.896657,Mountain,West
+Vermont,Burlington,"Burlington, Vermont","42,819",VT,44.484023,-73.219875,New England,Northeast
+Virginia,Chesapeake,"Chesapeake, Virginia","244,835",VA,36.735246,-76.23843,South Atlantic,South
+Virginia,Norfolk,"Norfolk, Virginia","242,742",VA,36.8466,-76.2855,South Atlantic,South
+Virginia,Richmond,"Richmond, Virginia","230,436",VA,37.453158,-77.469798,South Atlantic,South
+Virginia,Virginia Beach,"Virginia Beach, Virginia","449,974",VA,36.8527,-75.9783,South Atlantic,South
+Virginia,Williamsburg,"Williamsburg, Virginia","14,954",VA,37.262698,-76.701686,South Atlantic,South
+Washington,Seattle,"Seattle, Washington","753,675",WA,47.611435,-122.330456,Pacific,West
+Washington,Spokane,"Spokane, Washington","222,081",WA,47.666485,-117.436527,Pacific,West
+Washington,Tacoma,"Tacoma, Washington","217,827",WA,47.2764,-122.7583,Pacific,West
+West Virginia,Charleston,"Charleston, West Virginia","46,536",WV,38.349,-81.630606,South Atlantic,South
+Wisconsin,Green Bay,"Green Bay, Wisconsin","104,578",WI,44.485313,-88.016868,East North Central,Midwest
+Wisconsin,Madison,"Madison, Wisconsin","259,680",WI,43.073,-89.3817,East North Central,Midwest
+Wisconsin,Milwaukee,"Milwaukee, Wisconsin","590,157",WI,43.0343,-87.9151,East North Central,Midwest
+Wyoming,Cheyenne,"Cheyenne, Wyoming","64,235",WY,41.143719,-104.796234,Mountain,West
+Wyoming,Jackson,"Jackson, Wyoming","10,559",WY,43.460734,-110.766277,Mountain,West
