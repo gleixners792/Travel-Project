@@ -49,7 +49,7 @@ Florida,Miami,"Miami, Florida","467,963",FL,25.779,-80.1982,South Atlantic,South
 Florida,Naples,"Naples, Florida","22,088",FL,26.1377,-81.7966,South Atlantic,South
 Florida,Orlando,"Orlando, Florida","287,442",FL,28.498821,-80.58248,South Atlantic,South
 Florida,St. Augustine,"St. Augustine, Florida","15,415",FL,29.8364,-81.2745,South Atlantic,South
-Florida,St. Petersburg ,"St. Petersburg , Florida","265,351",FL,27.772318,-82.638609,South Atlantic,South
+Florida,St. Petersburg,"St. Petersburg, Florida","265,351",FL,27.772318,-82.638609,South Atlantic,South
 Florida,Tampa,"Tampa, Florida","399,700",FL,28.0879,-82.4593,South Atlantic,South
 Georgia,Atlanta,"Atlanta, Georgia","506,811",GA,33.749788,-84.31685,South Atlantic,South
 Georgia,Augusta,"Augusta, Georgia","197,888",GA,33.511692,-82.099505,South Atlantic,South
@@ -78,11 +78,11 @@ Michigan,Ann Arbor,"Ann Arbor, Michigan","119,980",MI,42.279379,-83.783998,East 
 Michigan,Detroit,"Detroit, Michigan","670,031",MI,42.347429,-83.060398,East North Central,Midwest
 Michigan,Grand Rapids,"Grand Rapids, Michigan","201,013",MI,42.9704,-85.6738,East North Central,Midwest
 Minnesota,Minneapolis,"Minneapolis, Minnesota","429,606",MN,45.049582,-93.246095,West North Central,Midwest
-Minnesota,St. Paul ,"St. Paul , Minnesota","308,096",MN,44.902691,-93.096435,West North Central,Midwest
+Minnesota,St. Paul,"St. Paul, Minnesota","308,096",MN,44.902691,-93.096435,West North Central,Midwest
 Mississippi,Jackson,"Jackson, Mississippi","160,628",MS,32.293502,-90.186655,East South Central,South
 Missouri,Branson,"Branson, Missouri","11,630",MO,36.643611,-93.218333,West North Central,Midwest
 Missouri,Kansas City,"Kansas City, Missouri","495,327",MO,39.163189,-94.569882,West North Central,Midwest
-Missouri,St. Louis ,"St. Louis , Missouri","300,576",MO,38.642574,-90.324189,West North Central,Midwest
+Missouri,St. Louis,"St. Louis, Missouri","300,576",MO,38.642574,-90.324189,West North Central,Midwest
 Montana,Billings,"Billings, Montana","109,577",MT,45.774489,-108.500452,Mountain,West
 Nebraska,Lincoln,"Lincoln, Nebraska","289,102",NE,40.8169,-96.7103,West North Central,Midwest
 Nebraska,Omaha,"Omaha, Nebraska","478,192",NE,41.261,-95.9376,West North Central,Midwest
@@ -102,7 +102,7 @@ North Carolina,Charlotte,"Charlotte, North Carolina","885,708",NC,35.2269,-80.84
 North Carolina,Durham,"Durham, North Carolina","278,993",NC,35.996725,-78.896613,South Atlantic,South
 North Carolina,Greensboro,"Greensboro, North Carolina","296,710",NC,36.0726,-79.792,South Atlantic,South
 North Carolina,Raleigh,"Raleigh, North Carolina","474,069",NC,35.772701,-78.632439,South Atlantic,South
-North Carolina,Winston-Salem ,"Winston-Salem , North Carolina","247,945",NC,36.10237,-80.222798,South Atlantic,South
+North Carolina,Winston-Salem,"Winston-Salem, North Carolina","247,945",NC,36.10237,-80.222798,South Atlantic,South
 North Dakota,Fargo,"Fargo, North Dakota","124,662",ND,46.900878,-96.793577,West North Central,Midwest
 Ohio,Cincinnati,"Cincinnati, Ohio","303,940",OH,39.091293,-84.277383,East North Central,Midwest
 Ohio,Cleveland,"Cleveland, Ohio","381,009",OH,41.4918,-81.6757,East North Central,Midwest

@@ -6,6 +6,9 @@
 // parameter when you first load the API. For example:
 // API_KEY = "AIzaSyCbILTKtwZPeTAss1Q1pVukMuPSydCl6SA"
 // <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&libraries=places">
+
+
+
 let map;
 let places;
 let infoWindow;
@@ -70,7 +73,11 @@ const countries = {
   }
 };
 
+console.log("#1");
+
 function initMap() {
+  console.log("#2");
+  
   map = new google.maps.Map(document.getElementById("map"), {
     zoom: countries["us"].zoom,
     center: countries["us"].center,
@@ -102,6 +109,7 @@ function initMap() {
 // When the user selects a city, get the place details for the city and
 // zoom the map in on the city.
 function onPlaceChanged() {
+  console.log("#3");
   const place = autocomplete.getPlace();
 
   if (place.geometry) {
@@ -113,8 +121,12 @@ function onPlaceChanged() {
   }
 }
 
+
+//*************************************************************************************
+
 // Search for hotels in the selected city, within the viewport of the map.
 function search() {
+  console.log("#4");
   const search = {
     bounds: map.getBounds(),
     types: ["lodging"]
@@ -147,7 +159,10 @@ function search() {
   });
 }
 
+
+//*******************************************************************************************
 function clearMarkers() {
+  console.log("#5");
   for (let i = 0; i < markers.length; i++) {
     if (markers[i]) {
       markers[i].setMap(null);
@@ -159,6 +174,7 @@ function clearMarkers() {
 // Set the country restriction based on user input.
 // Also center and zoom the map on the given country.
 function setAutocompleteCountry() {
+  console.log("#6");
   const country = document.getElementById("country").value;
 
   if (country == "all") {
@@ -175,12 +191,14 @@ function setAutocompleteCountry() {
 }
 
 function dropMarker(i) {
+  console.log("#7");
   return function() {
     markers[i].setMap(map);
   };
 }
 
 function addResult(result, i) {
+  console.log("#8");
   const results = document.getElementById("results");
   const markerLetter = String.fromCharCode("A".charCodeAt(0) + (i % 26));
   const markerIcon = MARKER_PATH + markerLetter + ".png";
@@ -205,6 +223,7 @@ function addResult(result, i) {
 }
 
 function clearResults() {
+  console.log("#9");
   const results = document.getElementById("results");
 
   while (results.childNodes[0]) {
@@ -215,6 +234,7 @@ function clearResults() {
 // Get the place details for a hotel. Show the information in an info window,
 // anchored on the marker for the hotel that the user selected.
 function showInfoWindow() {
+  console.log("#10");
   const marker = this;
   places.getDetails(
     { placeId: marker.placeResult.place_id },
@@ -230,6 +250,7 @@ function showInfoWindow() {
 
 // Load the place information into the HTML elements used by the info window.
 function buildIWContent(place) {
+  console.log("#11");
   document.getElementById("iw-icon").innerHTML =
     '<img class="hotelIcon" ' + 'src="' + place.icon + '"/>';
   document.getElementById("iw-url").innerHTML =
