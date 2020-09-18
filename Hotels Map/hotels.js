@@ -7,7 +7,7 @@
 // API_KEY = "AIzaSyCbILTKtwZPeTAss1Q1pVukMuPSydCl6SA"
 // <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&libraries=places">
 
-
+console.log("0#");
 
 let map;
 let places;
@@ -111,7 +111,7 @@ function initMap() {
 function onPlaceChanged() {
   console.log("#3");
   const place = autocomplete.getPlace();
-
+  console.log("#3-1", place);
   if (place.geometry) {
     map.panTo(place.geometry.location);
     map.setZoom(15);
@@ -132,6 +132,8 @@ function search() {
     types: ["lodging"]
   };
   places.nearbySearch(search, (results, status, pagination) => {
+    console.log("#4-1", results);
+    console.log("#4-2", status);
     if (status === google.maps.places.PlacesServiceStatus.OK) {
       clearResults();
       clearMarkers();
@@ -149,6 +151,7 @@ function search() {
         });
         // If the user clicks a hotel marker, show the details of that hotel
         // in an info window.
+        console.log("#4-3 geo-locations--> ", results[i].geometry.location);
 
         markers[i].placeResult = results[i];
         google.maps.event.addListener(markers[i], "click", showInfoWindow);
