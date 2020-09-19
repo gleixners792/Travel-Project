@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <title>US Travel</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../static/style.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+
+			<div class="row">
+				<div class="col-md-12 text-center">
+				    <h1>Where Do You Want to Travel?</h1>
+                    <h2>Select a US City</h2>                   
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-md-7">        			    
+                <img class="img" src="..\static\US_Region_Map.png">
+                </div>
+				<div class="col-md-5">
+					<div class = "box1 text-center">
+                        <form class="form-inline" method="POST" action="{{ url_for('city') }}">   
+                            <div class="form-group">
+                                <div class="input-group">
+                                        <select id="cityID" name="cityID" class="selectpicker form-control">
+                                            <option value="default" selected>Choose a City</option>
+                                            <option value="74">Boston, MA</option>
+                                            <option value="38">Bridgeport, CT</option>
+                                            <option value="139">Burlington, VT</option>
+                                            <option value="39">Hartford, CT</option>
+                                            <option value="90">Manchester, NH</option>            
+                                        </select>
+                                </div>
+                                <button type="submit" class="btn btn-default">Go</button>
+                            </div>    
+                        </form>					
+					</div>
+                </div>
+            </div>    
+		</div>
+
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="https://d3js.org/d3.v5.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+		<script type="text/javascript" src="../static/app_city.js"></script>
+  </body>
+</html>
