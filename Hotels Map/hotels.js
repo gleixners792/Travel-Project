@@ -64,8 +64,8 @@ const countries = {
     zoom: 6
   },
   us: {
-    center: { lat: 37.1, lng: -95.7 },
-    zoom: 3
+    center: { lat: 41.49, lng: -81.69 },
+    zoom: 5
   },
   uk: {
     center: { lat: 54.8, lng: -4.6 },
