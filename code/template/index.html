@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <title>US Travel</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../static/style.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+
+			<div class="row">
+				<div class="col-md-12 text-center">
+				    <h1>Where Do You Want to Travel?</h1>
+                    <h2>Select a US City</h2>                   
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-md-7">        			    
+                <img class="img" src="..\static\US_Region_Map.png">
+                </div>
+				<div class="col-md-5">
+					<div class = "box1 text-center">
+                        <form id="form1" action="{{ url_for('city') }}" method="POST" >    
+                        <div class="New England">
+                            <h4 style="color:rgb(68, 114, 196);" >Northeast: New England</h4>
+                            <select id="selCity" name="cityState" onchange="getValue(this);">
+                                <option value="default" selected>Choose a City</option>
+                                <option value="Boston, Massachusetts">Boston, MA</option>
+                                <option value="Bridgeport, Connecticut">Bridgeport, CT</option>
+                                <option value="Burlington, Vermont">Burlington, VT</option>
+                                <option value="Hartford, Connecticut">Hartford, CT</option>
+                                <option value="Machester, New Hampshire">Manchester, NH</option>
+                                <option value="New Haven, Connecticut">New Haven, CT</option>
+                                <option value="Plymouth, Massachusetts">Plymouth, MA</option>
+                                <option value="Portland, Maine">Portland, ME</option>
+                                <option value="Providence, Rhode Island">Providence, RI</option>
+                                <option value="Stamford, Connecticut">Stamford, CT</option>
+                            </select>   
+                        </div>
+                        <div class="Middle Atlantic">
+                            <h4 style="color:rgb(68, 114, 196);">Northeast: Middle Atlantic</h4>
+                            <select id="selCity" name="cityState" onchange="getValue(this);">
+                                <option value="default" selected>Choose a City</option>
+                                <option value="Atlantic City, New Jersey">Atlantic City, NJ</option>
+                                <option value="Buffalo, New York">Buffalo, NY</option>
+                                <option value="New York, New York">New York City, NY</option>
+                                <option value="Newark, New Jersey">Newark, NJ</option>
+                                <option value="Niagara Falls, New York">Niagara Falls, NY</option>
+                                <option value="Philadelphia, Pennsylvania">Philadelphia, PA</option>
+                                <option value="Pittsburgh, Pennsylvania">Pittsburgh, PA</option>
+                                <option value="Rochester, New York">Rochester, NY</option>
+                            </select>
+                        </div>
+                        <div class="East North Central">
+                            <h4 style="color:rgb(127, 172, 0);">Midwest: East North Central</h4>
+                            <select id="selCity" name="cityState" onchange="getValue(this);">
+                                <option value="default" selected>Choose a City</option>
+                                <option value="Ann Arbor, Michigan">Ann Arbor, MI</option>
+                                <option value="Chicago, Illinois">Chicago, IL</option>
+                                <option value="Cincinnati, Ohio">Cincinnati, OH</option>
+                                <option value="Cleveland, Ohio">Cleveland, OH</option>
+                                <option value="Columbus, Ohio">Columbus, OH</option>
+                                <option value="Detroit, Michigan">Detroit, MI</option>
+                                <option value="Fort Wayne, Indiana">Fort Wayne, IN</option>
+                                <option value="Grand Rapids, Michigan">Grand Rapids, MI</option>
+                                <option value="Green Bay, Wisconsin">Green Bay, WI</option>
+                                <option value="Indianapolis, Indiana">Indianapolis, IN</option>
+                                <option value="Madison, Wisconsin">Madison, WI</option>
+                                <option value="Milwaukee, Wisconsin">Milwaukee, WI</option>
+                            </select>
+                        </div>
+                        <div class="West North Central">
+                            <h4 style="color:rgb(127, 172, 0);">Midwest: West North Central</h4>
+                            <select id="selCity" name="cityState" onchange="getValue(this);">
+                                <option value="default" selected>Choose a City</option>
+                                <option value="Branson, Missouri">Branson, MO</option>
+                                <option value="Cedar Rapids, Iowa">Cedar Rapids, IA</option>
+                                <option value="Davenport, Iowa">Davenport, IA</option>
+                                <option value="Des Moines, Iowa">Des Moines, IA</option>
+                                <option value="Fargo, North Dakota">Fargo, ND</option>
+                                <option value="Kansas City, Kansas">Kansas City, KS</option>
+                                <option value="Kansas City, Missouri">Kansas City, MO</option>
+                                <option value="Lincoln, Nebraska">Lincoln, NE</option>
+                                <option value="Minneapolis, Minnesota">Minneapolis, MN</option>
+                                <option value="Omaha, Nebraska">Omaha, NE</option>
+                                <option value="Overland Park, Kansas">Overland Park, KS</option>
+                                <option value="Rapid City, South Dakota">Rapid City, SD</option>
+                                <option value="St. Louis, Missouri">St. Louis, MO</option>
+                                <option value="St. Paul, Minnesota">St. Paul, MN</option>
+                                <option value="Sioux Falls, South Dakota">Sioux Falls, SD</option>
+                                <option value="Wichita, Kansas">Wichita, KS</option>
+                            </select>
+                        </div>
+                        <div class="South Atlantic">
+                            <h4 style="color:rgb(102, 51, 0);">South: South Atlantic</h4>
+                            <select id="selCity" name="cityState" onchange="getValue(this);">
+                                <option value="default" selected>Choose a City</option>
+                                <option value="Asheville, North Carolina">Asheville, NC</option>
+                                <option value="Atlanta, Georgia">Atlanta, GA</option>
+                                <option value="Augusta, Georgia">Augusta, GA</option>
+                                <option value="Baltimore, Maryland">Baltimore, MD</option>
+                                <option value="Charleston, South Carolina">Charleston, SC</option>
+                                <option value="Charleston, West Virginia">Charleston, WV</option>
+                                <option value="Charlotte, North Carolina">Charlotte, NC</option>
+                                <option value="Chesapeake, Virginia">Chesapeake, VA</option>
+                                <option value="Columbia, South Carolina">Columbia, SC</option>
+                                <option value="Destin, Florida">Destin, FL</option>
+                                <option value="Dunham, North Carolina">Dunham, NC</option>
+                                <option value="Fort Myers, Florida">Fort Myers, FL</option>
+                                <option value="Greensboro, North Carolina">Greensboro, NC</option>
+                                <option value="Greenville, South Carolina">Greenville, SC</option>
+                                <option value="Hilton Head, South Carolina">Hilton Head, SC</option>
+                                <option value="Jackosnville, Florida">Jacksonville, FL</option>
+                                <option value="MIaimi, Florida">Miami, FL</option>
+                                <option value="Myrtle Beach, South Carolina">Myrtle Beach, SC</option>
+                                <option value="Naples, Florida">Naples, FL</option>
+                                <option value="Norfolk, Virginia">Norfolk, VA</option>
+                                <option value="Orlando, Florida">Orlanda, FL</option>
+                                <option value="Raleigh, North Carolina">Raleigh, NC</option>
+                                <option value="Richmond, Virginia">Richmond, VA</option>
+                                <option value="St. Augustine, Florida">St. Augustine, FL</option>
+                                <option value="St. Petersburg, Florida">St. Petersburg, FL</option>
+                                <option value="Savannah, Georgia">Savannah, GA</option>
+                                <option value="Tampa, Florida">Tampa, FL</option>
+                                <option value="Virginia Beach, Virginia">Virginia Beach, VA</option>
+                                <option value="Washington, District of Columbia">Washington, DC</option>
+                                <option value="Willimasburg, Virginia">Williamsburg, VA</option>
+                                <option value="Wilmington, Delaware">Wilmington, DE</option>
+                                <option value="Winston-Salem, North Carolina">Winston-Salem, NC</option>
+                            </select>
+                        </div>
+                        <div class="East South Central">
+                            <h4 style="color:rgb(102, 51, 0);">South: East South Central</h4>
+                            <select id="selCity" name="cityState" onchange="getValue(this);">
+                                <option value="default" selected>Choose a City</option>
+                                <option value="Birmingham, Alabama">Birmingham, AL</option>
+                                <option value="Chattanooga, Tennessee">Chattanooga, TN</option>
+                                <option value="Gatlinburg, Tennessee">Gatlinburg, TN</option>
+                                <option value="Huntsville, Alabama">Huntsville, AL</option>
+                                <option value="Jackson, Mississippi">Jackson, MS</option>
+                                <option value="Knoxville, Tennessee">Knoxville, TN</option>
+                                <option value="Lexington, Kentucky">Lexington, KY</option>
+                                <option value="Louisville, Kentucky">Louisville, KY</option>
+                                <option value="Memphis, Tennessee">Memphis, TN</option>
+                                <option value="Mobile, Alabama">Mobile, AL</option>
+                                <option value="Montgomery, Alabama">Montgomery, AL</option>
+                                <option value="Nashville, Tennessee">Nashville, TN</option>
+                                <option value="Tuscaloosa, Alabama">Tuscaloosa, AL</option>
+                            </select>
+                        </div>
+                        <div class="West South Central">
+                            <h4 style="color:rgb(102, 51, 0);">South: West South Central</h4>
+                            <select id="selCity" name="cityState" onchange="getValue(this);">
+                                <option value="default" selected>Choose a City</option>
+                                <option value="Amarillo, Texas">Amarillo, TX</option>
+                                <option value="Austin, Texas">Austin, TX</option>
+                                <option value="Baton Rouge, Louisiana">Baton Rouge, LA</option>
+                                <option value="Dallas, Texas">Dallas, TX</option>
+                                <option value="El Paso, Texas">El Paso, TX</option>
+                                <option value="Fort Worth, Texas">Fort Worth, TX</option>
+                                <option value="Houston, Texas">Houston, TX</option>
+                                <option value="Little Rock, Arkansas">Little Rock, AR</option>
+                                <option value="New Orleans, Louisiana">New Orleans, LA</option>
+                                <option value="Oklahoma City, Oklahoma">Oklahoma City, OK</option>
+                                <option value="San Antonio, Texas">San Antonio, TX</option>
+                                <option value="Tulsa, Oklahoma">Tulsa, OK</option>
+                            </select>
+                        </div>
+                        <div class="Mountain">
+                            <h4 style="color:rgb(255, 75, 75);">West: Mountain</h4>
+                            <select id="selCity" name="cityState" onchange="getValue(this);">
+                                <option value="default" selected>Choose a City</option>
+                                <option value="Albuquerque, New Mexico">Albuquerque, NM</option>
+                                <option value="Aspen, Colorado">Aspen, CO</option>
+                                <option value="Billings, Montana">Billings, MT</option>
+                                <option value="Boise, Idaho">Boise, ID</option>
+                                <option value="Breckenridge, Colorado">Breckenridge, CO</option>
+                                <option value="Cheyenne, Wyoming">Cheyenne, WY</option>
+                                <option value="Colorado Springs, Colorado">Colorado Springs, CO</option>
+                                <option value="Denver, Colorado">Denver, CO</option>
+                                <option value="Flagstaff, Arizona">Flagstaff, AZ</option>
+                                <option value="Fort Collins, Colorado">Fort Collins, CO</option>
+                                <option value="Jackson, Wyoming">Jackson, WY</option>
+                                <option value="Las Vegas, Nevada">Las Vegas, NV</option>
+                                <option value="Mesa, Arizona">Mesa, AZ</option>
+                                <option value="Park City, Utah">Park City, UT</option>
+                                <option value="Phoenix, Arizona">Phoenix, AZ</option>
+                                <option value="Provo, Utah">Provo, UT</option>
+                                <option value="Reno, Nevada">Reno, NV</option>
+                                <option value="Salt Lake City, Utah">Salt Lake City, UT</option>
+                                <option value="Santa Fe, New Mexico">Santa Fe, NM</option>
+                                <option value="Scottsdale, Arizona">Scottsdale, AZ</option>
+                                <option value="Sedona, Arizona">Sedona, AZ</option>
+                                <option value="Sun Valley, Idaho">Sun Valley, ID</option>
+                                <option value="Tucson, Arizona">Tucson, AZ</option>
+                                <option value="Vail, Colorado">Vail, CO</option>
+                            </select>
+                        </div>
+                        <div class="Pacific">
+                            <h4 style="color:rgb(255, 75, 75);">West: Pacific</h4>
+                            <select id="selCity" name="cityState" onchange="getValue(this);">
+                                <option value="default" selected>Choose a City</option>
+                                <option value="Anchorage, Alaska">Anchorage, AK</option>
+                                <option value="Eugene, Oregon">Eugene, OR</option>
+                                <option value="Fresno, California">Fresno, CA</option>
+                                <option value="Honolulu, Hawaii">Honolulu, HI</option>
+                                <option value="Huntington Beach, California">Huntington Beach, CA</option>
+                                <option value="Laguna Beach, California">Laguna Beach, CA</option>
+                                <option value="Long Beach, California">Long Beach, CA</option>
+                                <option value="Los Angeles, California">Los Angeles, CA</option>
+                                <option value="Malibu, California">Malibu, CA</option>
+                                <option value="Monterey, California">Monterey, CA</option>
+                                <option value="Napa, California">Napa, CA</option>
+                                <option value="Oakland, California">Oakland, CA</option>
+                                <option value="Palm Springs, California">Palm Springs, CA</option>
+                                <option value="Portland, Oregon">Portland, OR</option>
+                                <option value="Sacramento, California">Sacramento, CA</option>
+                                <option value="Salem, Oregon">Salem, OR</option>
+                                <option value="San Diego, California">San Diego, CA</option>
+                                <option value="San Francisco, California">San Francisco, CA</option>
+                                <option value="San Jose, California">San Jose, CA</option>
+                                <option value="Santa Barbara, California">Santa Barbara, CA</option>
+                                <option value="Santa Cruz, California">Santa Cruz, CA</option>
+                                <option value="Santa Monica, California">Santa Monica, CA</option>
+                                <option value="Seattle, Washington">Seattle, WA</option>
+                                <option value="South Lake Tahoe, California">South Lake Tahoe, CA</option>
+                                <option value="Spokane, Washington">Spokane, WA</option>
+                                <option value="Tacoma, Washington">Tacoma, WA</option>                           
+                            </select>
+                        </div>
+                        </form>					
+					</div>
+                </div>
+            </div>    
+		</div>
+
+
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="https://d3js.org/d3.v5.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+		<script type="text/javascript" src="../static/app_city.js"></script>
+  </body>
+</html>
