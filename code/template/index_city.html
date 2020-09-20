@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		  <title>City Info</title>
+      <script src="https://code.highcharts.com/highcharts.js"></script>
+      <script src="https://code.highcharts.com/highcharts-more.js"></script>
+      <!--script src="https://code.highcharts.com/modules/exporting.js"></script-->
+      <script src="https://code.highcharts.com/modules/export-data.js"></script>
+      <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="../static/hc_style.css">
+    </head>
+
+    <body>
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse navbar-toggleable-sm" id="myNavbar">
+            <ul class="nav navbar-nav ml-auto"> 
+              <li class="nav-item">
+                  <a class="nav-link" href="/">Select a New City</a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+
+      <div class="container">
+      <div class="row">
+
+        <div class="col-md-6">
+          <h2 class="heading">{{city_data.cname}}</h2>
+          <img alt="City Image" src="{{city_data.im_url}}" width=300px>
+          <hr>  
+          <div class="card border-dark mb-3">
+            <div class="card-header">
+              City Facts:
+            </div>
+            <div class="card-body">
+            <div id="city-metadata" class="card-text">
+              <p id="p1">{{city_data.cityFacts[0]}}</p>
+              <p id="p2">{{city_data.cityFacts[1]}}</p>
+              <p id="p3">{{city_data.cityFacts[2]}}</p>
+              <p id="p4">{{city_data.cityFacts[3]}}</p>
+              <p id="p5">{{city_data.cityFacts[4]}}</p>
+              <p id="p6">{{city_data.cityFacts[5]}}</p>
+              <p id="p7">{{city_data.cityFacts[6]}}</p>
+              <p id="p8">{{city_data.cityFacts[7]}}</p>
+              <p id="p9">{{city_data.cityFacts[8]}}</p>
+              <p id="p10">{{city_data.cityFacts[9]}}</p>
+            </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-6">
+          <div class = "box">
+          <figure class="highcharts-figure">
+            <div id="figure1"></div>
+            <hr>
+            <div id="figure2"></div>
+          </figure>
+          <hr>
+          <button class="button" onclick="newPage();">Click Here To Get Information on Popular Attractions, Hotels, and Restaurants</button>
+          </div>
+        </div>
+
+      </div>    
+      </div>
+
+      <script type="text/javascript" src="../static/app_city.js"></script>
+      <script type="text/javascript" src="../static/highchart.js"></script>
+
+    </body>
+</html>
