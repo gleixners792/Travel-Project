@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		  <title>City Info</title>
+      <script src="https://code.highcharts.com/highcharts.js"></script>
+      <script src="https://code.highcharts.com/highcharts-more.js"></script>
+      <!--script src="https://code.highcharts.com/modules/exporting.js"></script-->
+      <script src="https://code.highcharts.com/modules/export-data.js"></script>
+      <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="../static/hc_style.css">
+
+      <script type="text/javascript">
+        
+        var janHigh = Number('{{ janHigh }}')
+        var febHigh = Number('{{ febHigh }}')
+        var marHigh = Number('{{ marHigh }}')
+        var aprHigh = Number('{{ aprHigh }}')
+        var mayHigh = Number('{{ mayHigh }}')
+        var junHigh = Number('{{ junHigh }}')
+        var julHigh = Number('{{ julHigh }}')
+        var augHigh = Number('{{ augHigh }}')
+        var sepHigh = Number('{{ sepHigh }}')
+        var octHigh = Number('{{ octHigh }}')
+        var novHigh = Number('{{ novHigh }}')
+        var decHigh = Number('{{ decHigh }}')
+
+        var janLow = Number('{{ janLow }}')
+        var febLow = Number('{{ febLow }}')
+        var marLow = Number('{{ marLow }}')
+        var aprLow = Number('{{ aprLow }}')
+        var mayLow = Number('{{ mayLow }}')
+        var junLow = Number('{{ junLow }}')
+        var julLow = Number('{{ julLow }}')
+        var augLow = Number('{{ augLow }}')
+        var sepLow = Number('{{ sepLow }}')
+        var octLow = Number('{{ octLow }}')
+        var novLow = Number('{{ novLow }}')
+        var decLow = Number('{{ decLow }}')
+
+        var janPrecip = Number('{{ janPrecip }}')
+        var febPrecip = Number('{{ febPrecip }}')
+        var marPrecip = Number('{{ marPrecip }}')
+        var aprPrecip = Number('{{ aprPrecip }}')
+        var mayPrecip = Number('{{ mayPrecip }}')
+        var junPrecip = Number('{{ junPrecip }}')
+        var julPrecip = Number('{{ julPrecip }}')
+        var augPrecip = Number('{{ augPrecip }}')
+        var sepPrecip = Number('{{ sepPrecip }}')
+        var octPrecip = Number('{{ octPrecip }}')
+        var novPrecip = Number('{{ novPrecip }}')
+        var decPrecip = Number('{{ decPrecip }}')
+
+        const xCord = [janHigh, febHigh, marHigh, aprHigh, mayHigh, junHigh, julHigh, augHigh, sepHigh, octHigh, novHigh, decHigh];
+        const yCord = [janLow, febLow, marLow, aprLow, mayLow, junLow, julLow, augLow, sepLow, octLow, novLow, decLow];
+        const coords = xCord.map((el, index)=> [el, yCord[index]]);
+        var chartFB = coords;
+
+        var chartCol = [janPrecip, febPrecip, marPrecip, aprPrecip, mayPrecip, junPrecip, julPrecip, augPrecip, sepPrecip, octPrecip, novPrecip, decPrecip]
+
+      </script>
+
+
+    </head>
+
+    <body>
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse navbar-toggleable-sm" id="myNavbar">
+            <ul class="nav navbar-nav ml-auto"> 
+              <li class="nav-item">
+                  <a class="nav-link" href="/">Select a New City</a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6">
+          <h2 class="heading">{{city_data.name}}</h2>
+          <img alt="City Image" src="{{city_data.image}}" width=300px>
+          <hr>  
+          <div class="card border-dark mb-3">
+            <div class="card-header">
+              City Facts:
+            </div>
+            <div class="card-body">
+            <div id="city-metadata" class="card-text">
+                <p id="p1">Named For: {{city_data.nf}}</p>
+                <p id="p2">Date Settled: {{city_data.stl}}</p>
+                <p id="p3">Date Founded: {{city_data.fnd}}</p>
+                <p id="p4">Date: Incorporated: {{city_data.inc}}</p>
+                <p id="p5">Population: {{city_data.cpop}}</p>
+                <p id="p6">Mayor: {{city_data.mayor}}</p>
+                <p id="p7">Land Area: {{city_data.land}}</p>
+                <p id="p8">Water Area: {{city_data.water}}</p>
+                <p id="p9">Elevation: {{city_data.elev}}</p>
+                <p id="p10">Time Zone: {{city_data.time}}</p>  
+            </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-6">
+          <div class = "box">
+          <figure class="highcharts-figure">
+            <div id="figure1"></div>
+            <hr>
+            <div id="figure2"></div>
+          </figure>
+          </div>
+        </div>
+
+      </div>    
+      </div>
+
+      <script type="text/javascript" src="../static/highchart.js"></script>
+
+    </body>
+</html>
