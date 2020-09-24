@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <title>US Travel</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../static/style.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+
+			<div class="row">
+				<div class="col-md-12 text-center">
+				    <h1>Where Do You Want to Travel?</h1>
+                    <h2>Select a US City</h2>                   
+                <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">        			    
+                <img class="img" src="..\static\US_Region_Map.png">
+                </div>
+				<div class="col-md-5">
+					<div class = "box1 text-center"> 
+                        <form class="form-inline" method="POST" action="{{ url_for('city') }}"> 
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <select id="cityID" name="cityID" class="selectpicker form-control">   
+ 
+                                        <option value="default" selected>Choose a City</option>
+                                        <option style="color:rgb(68, 114, 196);" value="Boston, Massachusetts">New England:  Boston, MA</option>
+                                        <option style="color:rgb(68, 114, 196);" value="Bridgeport, Connecticut">New England:  Bridgeport, CT</option>
+                                        <option style="color:rgb(68, 114, 196);" value="Burlington, Vermont">New England:  Burlington, VT</option>
+                                        <option style="color:rgb(68, 114, 196);" value="Hartford, Connecticut">New England:  Hartford, CT</option>
+                                        <option style="color:rgb(68, 114, 196);" value="Machester, New Hampshire">New England:  Manchester, NH</option>
+                                        <option style="color:rgb(68, 114, 196);" value="New Haven, Connecticut">New England:  New Haven, CT</option>
+                                        <option style="color:rgb(68, 114, 196);" value="Plymouth, Massachusetts">New England:  Plymouth, MA</option>
+                                        <option style="color:rgb(68, 114, 196);" value="Portland, Maine">New England:  Portland, ME</option>
+                                        <option style="color:rgb(68, 114, 196);" value="Providence, Rhode Island">New England:  Providence, RI</option>
+                                        <option style="color:rgb(68, 114, 196);" value="Stamford, Connecticut">New England:  Stamford, CT</option>
+            
+                                        <option style="color:rgb(68, 114, 196);" value="Atlantic City, New Jersey">Middle Atlantic:  Atlantic City, NJ</option>
+                                        <option style="color:rgb(68, 114, 196);" value="Buffalo, New York">Middle Atlantic:  Buffalo, NY</option>
+                                        <option style="color:rgb(68, 114, 196);" value="New York, New York">Middle Atlantic:  New York City, NY</option>
+                                        <option style="color:rgb(68, 114, 196);" value="Newark, New Jersey">Middle Atlantic:  Newark, NJ</option>
+                                        <option style="color:rgb(68, 114, 196);" value="Niagara Falls, New York">Middle Atlantic:  Niagara Falls, NY</option>
+                                        <option style="color:rgb(68, 114, 196);" value="Philadelphia, Pennsylvania">Middle Atlantic:  Philadelphia, PA</option>
+                                        <option style="color:rgb(68, 114, 196);" value="Pittsburgh, Pennsylvania">Middle Atlantic:  Pittsburgh, PA</option>
+                                        <option style="color:rgb(68, 114, 196);" value="Rochester, New York">Middle Atlantic:  Rochester, NY</option>
+            
+                                        <option style="color:rgb(127, 172, 0);" value="Ann Arbor, Michigan">East North Central:  Ann Arbor, MI</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Chicago, Illinois">East North Central:  Chicago, IL</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Cincinnati, Ohio">East North Central:  Cincinnati, OH</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Cleveland, Ohio">East North Central:  Cleveland, OH</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Columbus, Ohio">East North Central:  Columbus, OH</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Detroit, Michigan">East North Central:  Detroit, MI</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Fort Wayne, Indiana">East North Central:  Fort Wayne, IN</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Grand Rapids, Michigan">East North Central:  Grand Rapids, MI</option>
+                                        <option style="color:rgb(127, 172, 0);" style="color:rgb(127, 172, 0);" value="Green Bay, Wisconsin">East North Central:  Green Bay, WI</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Indianapolis, Indiana">East North Central:  Indianapolis, IN</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Madison, Wisconsin">East North Central:  Madison, WI</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Milwaukee, Wisconsin">East North Central:  Milwaukee, WI</option>
+            
+                                        <option style="color:rgb(127, 172, 0);" value="Branson, Missouri">West North Central:  Branson, MO</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Cedar Rapids, Iowa">West North Central:  Cedar Rapids, IA</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Davenport, Iowa">West North Central:  Davenport, IA</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Des Moines, Iowa">West North Central:  Des Moines, IA</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Fargo, North Dakota">West North Central:  Fargo, ND</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Kansas City, Kansas">West North Central:  Kansas City, KS</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Kansas City, Missouri">West North Central:  Kansas City, MO</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Lincoln, Nebraska">West North Central:  Lincoln, NE</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Minneapolis, Minnesota">West North Central:  Minneapolis, MN</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Omaha, Nebraska">West North Central:  Omaha, NE</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Overland Park, Kansas">West North Central:  Overland Park, KS</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Rapid City, South Dakota">West North Central:  Rapid City, SD</option>
+                                        <option style="color:rgb(127, 172, 0);" value="St. Louis, Missouri">West North Central:  St. Louis, MO</option>
+                                        <option style="color:rgb(127, 172, 0);" value="St. Paul, Minnesota">West North Central:  St. Paul, MN</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Sioux Falls, South Dakota">West North Central:  Sioux Falls, SD</option>
+                                        <option style="color:rgb(127, 172, 0);" value="Wichita, Kansas">West North Central:  Wichita, KS</option>
+            
+                                        <option style="color:rgb(102, 51, 0);" value="Asheville, North Carolina">South Atlantic:  Asheville, NC</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Atlanta, Georgia">South Atlantic:  Atlanta, GA</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Augusta, Georgia">South Atlantic:  Augusta, GA</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Baltimore, Maryland">South Atlantic:  Baltimore, MD</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Charleston, South Carolina">South Atlantic:  Charleston, SC</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Charleston, West Virginia">South Atlantic:  Charleston, WV</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Charlotte, North Carolina">South Atlantic:  Charlotte, NC</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Chesapeake, Virginia">South Atlantic:  Chesapeake, VA</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Columbia, South Carolina">South Atlantic:  Columbia, SC</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Destin, Florida">South Atlantic:  Destin, FL</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Dunham, North Carolina">South Atlantic:  Dunham, NC</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Fort Myers, Florida">South Atlantic:  Fort Myers, FL</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Greensboro, North Carolina">South Atlantic:  Greensboro, NC</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Greenville, South Carolina">South Atlantic:  Greenville, SC</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Hilton Head, South Carolina">South Atlantic:  Hilton Head, SC</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Jackosnville, Florida">South Atlantic:  Jacksonville, FL</option>
+                                        <option style="color:rgb(102, 51, 0);" value="MIaimi, Florida">South Atlantic:  Miami, FL</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Myrtle Beach, South Carolina">South Atlantic:  Myrtle Beach, SC</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Naples, Florida">South Atlantic:  Naples, FL</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Norfolk, Virginia">South Atlantic:  Norfolk, VA</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Orlando, Florida">South Atlantic:  Orlanda, FL</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Raleigh, North Carolina">South Atlantic:  Raleigh, NC</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Richmond, Virginia">South Atlantic:  Richmond, VA</option>
+                                        <option style="color:rgb(102, 51, 0);" value="St. Augustine, Florida">South Atlantic:  St. Augustine, FL</option>
+                                        <option style="color:rgb(102, 51, 0);" value="St. Petersburg, Florida">South Atlantic:  St. Petersburg, FL</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Savannah, Georgia">South Atlantic:  Savannah, GA</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Tampa, Florida">South Atlantic:  Tampa, FL</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Virginia Beach, Virginia">South Atlantic:  Virginia Beach, VA</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Washington, District of Columbia">South Atlantic:  Washington, DC</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Willimasburg, Virginia">South Atlantic:  Williamsburg, VA</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Wilmington, Delaware">South Atlantic:  Wilmington, DE</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Winston-Salem, North Carolina">South Atlantic:  Winston-Salem, NC</option>
+
+                                        <option style="color:rgb(102, 51, 0);"value="Birmingham, Alabama">East South Central:  Birmingham, AL</option>
+                                        <option style="color:rgb(102, 51, 0);"value="Chattanooga, Tennessee">East South Central:  Chattanooga, TN</option>
+                                        <option style="color:rgb(102, 51, 0);"value="Gatlinburg, Tennessee">East South Central:  Gatlinburg, TN</option>
+                                        <option style="color:rgb(102, 51, 0);"value="Huntsville, Alabama">East South Central:  Huntsville, AL</option>
+                                        <option style="color:rgb(102, 51, 0);"value="Jackson, Mississippi">East South Central:  Jackson, MS</option>
+                                        <option style="color:rgb(102, 51, 0);"value="Knoxville, Tennessee">East South Central:  Knoxville, TN</option>
+                                        <option style="color:rgb(102, 51, 0);"value="Lexington, Kentucky">East South Central:  Lexington, KY</option>
+                                        <option style="color:rgb(102, 51, 0);"value="Louisville, Kentucky">East South Central:  Louisville, KY</option>
+                                        <option style="color:rgb(102, 51, 0);"value="Memphis, Tennessee">East South Central:  Memphis, TN</option>
+                                        <option style="color:rgb(102, 51, 0);"value="Mobile, Alabama">East South Central:  Mobile, AL</option>
+                                        <option style="color:rgb(102, 51, 0);"value="Montgomery, Alabama">East South Central:  Montgomery, AL</option>
+                                        <option style="color:rgb(102, 51, 0);"value="Nashville, Tennessee">East South Central:  Nashville, TN</option>
+                                        <option style="color:rgb(102, 51, 0);"value="Tuscaloosa, Alabama">East South Central:  Tuscaloosa, AL</option>
+
+                                        <option style="color:rgb(102, 51, 0);" value="Amarillo, Texas">West South Central:  Amarillo, TX</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Austin, Texas">West South Central:  Austin, TX</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Baton Rouge, Louisiana">West South Central:  Baton Rouge, LA</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Dallas, Texas">West South Central:  Dallas, TX</option>
+                                        <option style="color:rgb(102, 51, 0);" value="El Paso, Texas">West South Central:  El Paso, TX</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Fort Worth, Texas">West South Central:  Fort Worth, TX</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Houston, Texas">West South Central:  Houston, TX</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Little Rock, Arkansas">West South Central:  Little Rock, AR</option>
+                                        <option style="color:rgb(102, 51, 0);" value="New Orleans, Louisiana">West South Central:  New Orleans, LA</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Oklahoma City, Oklahoma">West South Central:  Oklahoma City, OK</option>
+                                        <option style="color:rgb(102, 51, 0);" value="San Antonio, Texas">West South Central:  San Antonio, TX</option>
+                                        <option style="color:rgb(102, 51, 0);" value="Tulsa, Oklahoma">West South Central:  Tulsa, OK</option>
+
+                                        <option style="color:rgb(255, 75, 75);" value="Albuquerque, New Mexico">Mountain:  Albuquerque, NM</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Aspen, Colorado">Mountain:  Aspen, CO</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Billings, Montana">Mountain:  Billings, MT</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Boise, Idaho">Mountain:  Boise, ID</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Breckenridge, Colorado">Mountain:  Breckenridge, CO</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Cheyenne, Wyoming">Mountain:  Cheyenne, WY</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Colorado Springs, Colorado">Mountain:  Colorado Springs, CO</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Denver, Colorado">Mountain:  Denver, CO</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Flagstaff, Arizona">Mountain:  Flagstaff, AZ</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Fort Collins, Colorado">Mountain:  Fort Collins, CO</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Jackson, Wyoming">Mountain:  Jackson, WY</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Las Vegas, Nevada">Mountain:  Las Vegas, NV</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Mesa, Arizona">Mountain:  Mesa, AZ</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Park City, Utah">Mountain:  Park City, UT</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Phoenix, Arizona">Mountain:  Phoenix, AZ</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Provo, Utah">Mountain:  Provo, UT</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Reno, Nevada">Mountain:  Reno, NV</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Salt Lake City, Utah">Mountain:  Salt Lake City, UT</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Santa Fe, New Mexico">Mountain:  Santa Fe, NM</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Scottsdale, Arizona">Mountain:  Scottsdale, AZ</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Sedona, Arizona">Mountain:  Sedona, AZ</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Sun Valley, Idaho">Mountain:  Sun Valley, ID</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Tucson, Arizona">Mountain:  Tucson, AZ</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Vail, Colorado">Mountain:  Vail, CO</option>
+            
+                                        <option style="color:rgb(255, 75, 75);" value="Anchorage, Alaska">Pacific:  Anchorage, AK</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Eugene, Oregon">Pacific:  Eugene, OR</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Fresno, California">Pacific:  Fresno, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Honolulu, Hawaii">Pacific:  Honolulu, HI</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Huntington Beach, California">Pacific:  Huntington Beach, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Laguna Beach, California">Pacific:  Laguna Beach, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Long Beach, California">Pacific:  Long Beach, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Los Angeles, California">Pacific:  Los Angeles, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Malibu, California">Pacific:  Malibu, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Monterey, California">Pacific:  Monterey, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Napa, California">Pacific:  Napa, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Oakland, California">Pacific:  Oakland, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Palm Springs, California">Pacific:  Palm Springs, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Portland, Oregon">Pacific:  Portland, OR</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Sacramento, California">Pacific:  Sacramento, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Salem, Oregon">Pacific:  Salem, OR</option>
+                                        <option style="color:rgb(255, 75, 75);" value="San Diego, California">Pacific:  San Diego, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="San Francisco, California">Pacific:  San Francisco, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="San Jose, California">Pacific:  San Jose, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Santa Barbara, California">Pacific:  Santa Barbara, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Santa Cruz, California">Pacific:  Santa Cruz, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Santa Monica, California">Pacific:  Santa Monica, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Seattle, Washington">Pacific:  Seattle, WA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="South Lake Tahoe, California">Pacific:  South Lake Tahoe, CA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Spokane, Washington">Pacific:  Spokane, WA</option>
+                                        <option style="color:rgb(255, 75, 75);" value="Tacoma, Washington">Pacific:  Tacoma, WA</option>                           
+                                    </select>
+                                </div>
+                                <button type="submit" class="btn btn-default">Go</button>
+                            </div>    
+                        </form>					
+					</div>
+                </div>
+            </div>      
+        </div>
+        
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="https://d3js.org/d3.v5.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+        
+  </body>
+</html>
